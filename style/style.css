@@ -311,3 +311,35 @@ font-weight: 600;
     height: 40px;
     color: #FFF;
 }
+@media screen and (max-width:576px){
+    .nav-container{
+        display: block;
+        padding: 10px 10px;
+    }
+    .play-images .play-right{
+        width: 50%;
+    }
+    
+   .play-container {
+     display:flex;
+     flex-direction: column-reverse;
+     padding: 100px 10px 10px;
+   }
+   .gamer-container {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+   }
+   .play-container-main {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+   }
+   .gamer-funny-vedio-section{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+   }
+   
+
+} 
